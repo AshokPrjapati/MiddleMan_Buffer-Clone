@@ -49,3 +49,14 @@
     color: #2c4bff;
     margin-right: 5px;
 }
+
+#line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#line>div {
+    width: 15%;
+}
