@@ -113,7 +113,6 @@ header {
 }
 
 #login>a:hover {
-    padding: 0 40px;
     border-bottom: .5px solid #2c4bff;
 }
 
@@ -130,7 +129,7 @@ header {
     z-index: -10;
     opacity: 0;
     pointer-events: none;
-    transition: .5s;
+    transition: .3s;
 }
 
 .item:hover {
@@ -143,7 +142,6 @@ header {
     z-index: 10;
     pointer-events: all;
     top: 90px;
-    transition: .3s ease-out;
 
 }
 
