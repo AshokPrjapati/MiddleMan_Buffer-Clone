@@ -64,14 +64,14 @@ header {
     content: "";
     position: absolute;
     bottom: 0;
-    left: 25%;
+    left: 33%;
     height: 3px;
     background: #2c4bff;
     transition: 600ms;
 }
 
 .item>a:hover::after {
-    width: 30%;
+    width: 15px;
 }
 
 .item>a:hover,
