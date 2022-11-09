@@ -1,5 +1,5 @@
 export default () => {
-    return `<div id="logo">
+  return `<div id="logo">
    <a href="index.html"> <img src="./images/logo.png" alt="" /></a>
   </div>
 
@@ -128,7 +128,7 @@ export default () => {
     </ul>
   </div>
   <div id="start">
-    <div id="login"><a href="">Log In</a></div>
+    <div id="login"><a href="">Log in</a></div>
     <button class="btn">Get Started Now</button>
   </div>`
 }

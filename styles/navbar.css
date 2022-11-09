@@ -44,7 +44,7 @@ header {
 
 .item {
     position: relative;
-    margin: 15px;
+    margin: 20px;
     /* border: 1px solid red; */
 }
 
@@ -89,7 +89,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
+    width: 22%;
 }
 
 .btn {
