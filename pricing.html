@@ -41,6 +41,16 @@
         border:0px solid violet;
         margin-top: 50px;
        }
+       #subs-btn>button{
+        height:50px;
+        color: white;
+        background-color:#2c4bff;
+        border: 0.5px solid black;
+        border-radius: 5px;
+       }
+       #subs-btn>button:focus{
+        background:black;
+}
        #subs-social-handle{
         border:0px solid orange;
         text-align: center;
@@ -51,8 +61,9 @@
         height:600px;
         border:0px solid blue;
         display: flex;
-        background-image: url(https://images.pexels.com/photos/2340254/pexels-photo-2340254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-        background-image: url(https://www.crushpixel.com/big-static15/preview4/abstract-yellow-line-background-2174877.jpg);
+         /* background-image: url(https://images.pexels.com/photos/2340254/pexels-photo-2340254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */ 
+        background-image: url(https://buffer.com/static/background/yellow-bg-withpattern.jpg);
+        
        }
        .box{
         height:90%;
@@ -66,6 +77,18 @@
        .box>p{
         text-align: left;
        }
+       .box>button{
+        margin-left: 24%;
+        background-color: #2c4bff;
+        color: aliceblue;
+        height: 30px;
+        width:50%;
+        border: 0px;
+        border-radius: 8px;
+       }
+       .box>button:hover{
+        background-color: #e97284;
+       }
        span{
         font-size:medium;
        }
@@ -75,6 +98,52 @@
        }
        .price>p>span{
         font-weight: bolder;
+       }
+       #blue-poster{
+        background-color: #2c4bff;
+        height:500px;
+        color: aliceblue;
+        margin-top: 0%;
+        text-align: center;
+        position: relative;
+       }
+       #blue-dsp{
+        border: 0px solid black;
+        font-size: x-large;
+        font-weight: bolder;
+        width: 30%;
+        margin-left: 35%;
+        position: absolute;
+          bottom: 60%;
+
+        
+       }
+       #blue-poster>button{
+        position: absolute;
+          bottom: 38%;
+          left: 42%;
+         height: 40px;
+         border: 0px;
+         border-radius: 5px;
+         background-color: #e97284;
+         color: azure;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-weight: bold;
+         font-size:medium;
+         width:15%
+       }
+       #blue-poster>button:hover{
+        background-color:orange;
+       }
+       #blue-feature{
+        border:0px solid black;
+        width:30%;
+        font-weight: 1500;
+        display: flex;
+        margin-left: 35%;
+        justify-content: space-around;
+        position: absolute;
+          bottom: 28%;
        }
     </style>
     <title>Document</title>
@@ -168,7 +237,7 @@
             <p>billed monthly</p>
 
         </div>
-        <button><i class="fa-solid fa-circle-check"></i> Get Started</button>
+        <button> Get Started</button>
         <h3><i class="fa-solid fa-circle-check"></i> Team features, plus:</h3>
         <h3><i class="fa-solid fa-circle-check"></i> Custom access & permissions</h3>
         <h3><i class="fa-solid fa-circle-check"></i> Agency-friendly pricing</h3>
@@ -176,6 +245,18 @@
 
 
     </div>
+
+    <div id="blue-poster">
+     <div id="blue-dsp">
+        <p>140,000+ people like you use Buffer to build their brand on social media every month</p>
+     </div>
+     <button>Get Started</button>
+     <div id="blue-feature">
+        <div><i class="fa-solid fa-check"></i>No credit card required</div>
+        <div><i class="fa-solid fa-check"></i>14 day free trial</div>
+        <div><i class="fa-solid fa-check"></i>Cancel anytime</div>
+     </div>
+    </div>
 </body>
 </html>
-<script src="pricing.js"></script>
+<script src="./scripts/pricing.js"></script>
