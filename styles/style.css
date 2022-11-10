@@ -142,3 +142,29 @@
 #partner>h3 {
     font-family: Poppins;
 }
+
+/* Responsive */
+
+@media (min-width:320px) and (max-width:1024px) {
+    #hero {
+        align-items: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        text-align: center;
+        gap: 0;
+        line-height: 1.5;
+    }
+
+    .buttons {
+        margin: 10px 0;
+    }
+
+    .buttons>button {
+        margin: 10px 0;
+    }
+}

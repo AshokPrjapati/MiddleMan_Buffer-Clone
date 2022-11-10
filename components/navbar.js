@@ -3,8 +3,8 @@ export default () => {
    <a href="index.html"> <img src="./images/logo.png" alt="" /></a>
   </div>
 
-  <div id="navlist">
-    <ul>
+  <div id="navlist" class="">
+    <ul class="nav-items">
       <li class="item">
         <a href=""
           >Tools
@@ -130,5 +130,10 @@ export default () => {
   <div id="start">
     <div id="login"><a href="">Log In</a></div>
     <button class="btn">Get Started Now</button>
+    <div id = "menu">
+      <i class="fa-solid fa-bars hide"></i>
+      <i class="fa-solid fa-xmark show"></i>
+     </div >
   </div>`
+
 }
