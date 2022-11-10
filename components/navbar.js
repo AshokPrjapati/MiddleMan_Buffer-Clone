@@ -121,7 +121,7 @@ export default () => {
           </div>
         </div>
       </li>
-      <li class="item"><a href="">Pricing</a></li>
+      <li class="item"><a href="./pricing.html">Pricing</a></li>
       <li class="item"><a href="">Blog</a></li>
       <li class="item"><a href="">About</a></li>
       <li class="item"><a href="./customer_page.html">Customer</a></li>
