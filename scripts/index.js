@@ -9,3 +9,8 @@ blueSectionDiv.innerHTML = blueSection();
 
 let footerDiv = document.getElementById("footer");
 footerDiv.innerHTML = footer();
+
+let navlist = document.getElementById("navlist");
+
+let menu = document.getElementById("menu");
+menu.onclick = () => navlist.classList.toggle("active");
