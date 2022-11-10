@@ -113,3 +113,32 @@
     font-weight: bold;
     font-size: 30px;
 }
+
+.ml0 {
+    margin-left: 0;
+}
+
+#partner {
+    text-align: center;
+}
+
+#c-logo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#c-logo>div {
+    display: flex;
+    align-items: center;
+    width: 8%;
+    margin: 30px 0 80px 0;
+}
+
+#c-logo>div>img {
+    width: 100%;
+}
+
+#partner>h3 {
+    font-family: Poppins;
+}
