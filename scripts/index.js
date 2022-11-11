@@ -14,3 +14,4 @@ let navlist = document.getElementById("navlist");
 
 let menu = document.getElementById("menu");
 menu.onclick = () => navlist.classList.toggle("active");
+

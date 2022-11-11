@@ -323,6 +323,11 @@ header {
     cursor: pointer;
 }
 
+.tac {
+    width: 100%;
+    text-align: center;
+}
+
 /*  responsiveness */
 @media (min-width:320px) and (max-width:1024px) {
     .nav-items {
