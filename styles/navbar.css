@@ -18,8 +18,13 @@ header {
 }
 
 #navbar {
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-around;
+    background-color: #eee;
+    border-radius: 0 0 10px 10px;
+    z-index: 999;
 }
 
 #logo {
@@ -42,14 +47,14 @@ header {
     padding: 0 5px;
 }
 
-.item {
+.items {
     position: relative;
     margin: 15px;
     padding: 10px 0;
     /* border: 1px solid red; */
 }
 
-.item>a {
+.items>a {
     position: relative;
     font-size: 19px;
     text-decoration: none;
@@ -59,7 +64,7 @@ header {
     transition: 600ms;
 }
 
-.item>a::after {
+.items>a::after {
     width: 0%;
     /* border-radius: 5px; */
     content: "";
@@ -71,18 +76,18 @@ header {
     transition: 600ms;
 }
 
-.item>a:hover::after {
+.items>a:hover::after {
     width: 30%;
 }
 
-.item>a:hover,
-.item>a>i:hover {
+.items>a:hover,
+.items>a>i:hover {
     color: #2c4bff;
 }
 
 
 
-.item>a>i {
+.items>a>i {
     margin-left: 8px;
 }
 
@@ -144,7 +149,7 @@ header {
     transition: .3s;
 }
 
-.item:hover>.drop_down {
+.items:hover>.drop_down {
     opacity: 1;
     z-index: 10;
     pointer-events: all;
