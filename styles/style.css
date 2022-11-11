@@ -27,6 +27,12 @@
     gap: 35px;
 }
 
+.center {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 80px;
+}
+
 .left>h1 {
     font-family: Poppins;
     font-weight: bold;
@@ -34,7 +40,8 @@
     font-weight: bolder;
 }
 
-.left>p {
+.left>p,
+.center>p {
     line-height: 30px;
 }
 
@@ -104,11 +111,13 @@
     width: 100%;
 }
 
-.left>h3 {
+.left>h3,
+.center>h3 {
     color: #2c4bff;
 }
 
-.left>.heading {
+.left>.heading,
+.center>.heading {
     font-family: Poppins;
     font-weight: bold;
     font-size: 30px;
