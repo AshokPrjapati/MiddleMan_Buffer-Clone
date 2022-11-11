@@ -391,6 +391,17 @@ header {
         justify-content: space-between;
     }
 
+    #footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer>div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (min-width:320px) and (max-width:768px) {
@@ -401,17 +412,6 @@ header {
     #back-1,
     #back-2 {
         display: none;
-    }
-
-    #footer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #footer>div {
-        width: 100%;
-        margin-bottom: 50px;
     }
 }
 
