@@ -5,7 +5,7 @@ export default () => {
 
   <div id="navlist" class="">
     <ul class="nav-items">
-      <li class="item">
+      <li class="items">
         <a href=""
           >Tools
           <i class="fa-solid fa-angle-down"></i>
@@ -52,7 +52,7 @@ export default () => {
           </div>
         </div>
       </li>
-      <li class="item">
+      <li class="items">
         <a href="">Channel <i class="fa-solid fa-angle-down"></i> </a>
         <div class="drop_down">
           <div class="card">

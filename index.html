@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="./styles/owl.theme.default.min.css"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -247,6 +249,36 @@
       </div>
     </section>
 
+    <section id="carousel" class="width80">
+     <h1 style="text-align:center; margin-bottom:30px; font-size:35px">Developers</h1>
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="./images/ashok.png" alt="">
+              <h3 class="name">Ashok Kumar</h3>
+              <p class="role">Home Page - Frontend</p>
+            </div>
+            <div class="item">
+              <img src="" alt="">
+              <h3 class="name">Ayush Kindo</h3>
+              <p class="role">Pricing Page - Frontend</p>
+            </div>
+            <div class="item">
+              <img src="" alt="">
+              <h3 class="name">Rushikesh Moon</h3>
+              <p class="role">Admin Page- Backend</p>
+            </div>
+            <div class="item">
+              <img src="" alt="">
+              <h3 class="name">Utakarsh Parmar</h3>
+              <p class="role">Login Page - Backend</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="hero" class="width90 s2">
       <div class="right">
         <img
@@ -295,5 +327,30 @@
 
     <div id="footer">
   </body>
+  <script src="./scripts/jquery.min.js"></script>
+  <script src="./scripts/owl.carousel.min.js "></script>
   <script type="module" src="./scripts/index.js"></script>
+  <script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+    items:3,
+    loop:true,
+    margin:30,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:3,
+        }
+      }
+});
+  </script>
 </html>

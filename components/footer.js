@@ -35,38 +35,37 @@ let footer = () => {
       Copyright ©2022 Buffer | Privacy | Terms | Security
     </div>
   </div>
-</div>
-<div id="tools" class="lh">
-  <h4>Tools</h4>
-  <p>Publishing</p>
-  <p>Analytics</p>
-  <p>Engagement</p>
-  <p>Start Page</p>
-  <p>Extras</p>
-</div>
-<div id="resources" class="lh">
-  <h4>Resources</h4>
-  <p>Blog</p>
-  <p>Content library</p>
-  <p>Brower Extension</p>
-  <p>Free Image Editor</p>
-</div>
-<div id="support" class="lh">
-  <h4>Support</h4>
-  <p>Help Center</p>
-  <p>Status</p>
-  <p>Changelog</p>
-  <p>Product Roadmap</p>
-</div>
-<div id="company" class="lh">
-  <h4>Company</h4>
-  <p>About</p>
-  <p>Transparency</p>
-  <p>Carrers</p>
-  <p>Accesibility</p>
-  <p>Press</p>
-  <p>Sitemap</p>
-</div>
+  <div id="tools" class="lh">
+    <h4>Tools</h4>
+    <p>Publishing</p>
+    <p>Analytics</p>
+    <p>Engagement</p>
+    <p>Start Page</p>
+    <p>Extras</p>
+  </div>
+  <div id="resources" class="lh">
+    <h4>Resources</h4>
+    <p>Blog</p>
+    <p>Content library</p>
+    <p>Brower Extension</p>
+    <p>Free Image Editor</p>
+  </div>
+  <div id="support" class="lh">
+    <h4>Support</h4>
+    <p>Help Center</p>
+    <p>Status</p>
+    <p>Changelog</p>
+    <p>Product Roadmap</p>
+  </div>
+  <div id="company" class="lh">
+    <h4>Company</h4>
+    <p>About</p>
+    <p>Transparency</p>
+    <p>Carrers</p>
+    <p>Accesibility</p>
+    <p>Press</p>
+    <p>Sitemap</p>
+  </div>
 </div>`
 }
 

@@ -18,8 +18,13 @@ header {
 }
 
 #navbar {
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-around;
+    background-color: #eee;
+    border-radius: 0 0 10px 10px;
+    z-index: 999;
 }
 
 #logo {
@@ -42,14 +47,14 @@ header {
     padding: 0 5px;
 }
 
-.item {
+.items {
     position: relative;
     margin: 15px;
     padding: 10px 0;
     /* border: 1px solid red; */
 }
 
-.item>a {
+.items>a {
     position: relative;
     font-size: 19px;
     text-decoration: none;
@@ -59,7 +64,7 @@ header {
     transition: 600ms;
 }
 
-.item>a::after {
+.items>a::after {
     width: 0%;
     /* border-radius: 5px; */
     content: "";
@@ -71,18 +76,19 @@ header {
     transition: 600ms;
 }
 
+
 .item>a:hover::after {
     width: 15px;
 }
 
-.item>a:hover,
-.item>a>i:hover {
+.items>a:hover,
+.items>a>i:hover {
     color: #2c4bff;
 }
 
 
 
-.item>a>i {
+.items>a>i {
     margin-left: 8px;
 }
 
@@ -128,76 +134,6 @@ header {
 }
 
 
-
-@media (min-width:320px) and (max-width:1024px) {
-    .nav-items {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        justify-content: center;
-        top: 0;
-        left: 0;
-        /* align-items: flex-start; */
-        width: 100%;
-        min-height: 100vh;
-        background-color: #fff;
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transform: translateX(100%);
-        overflow-x: hidden;
-        transition: .5s linear;
-    }
-
-    .fa-solid.fa-xmark {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transition: .1s;
-    }
-
-    .active>.nav-items {
-        opacity: 1;
-        visibility: visible;
-        transform: translateX(0);
-        pointer-events: all;
-        transition: .5s linear;
-    }
-
-    .active+#start>#menu>.hide {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transition: .2s;
-    }
-
-    .active+#start>#menu>.show {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: all;
-        transition: .1s;
-    }
-
-    #menu {
-        display: flex;
-        cursor: pointer;
-        z-index: 99;
-    }
-
-    #start {
-        width: max-content;
-    }
-
-    #start>div {
-        margin: 20px;
-    }
-
-    #navbar {
-        justify-content: space-between;
-    }
-
-}
-
 /* Dropdown Menu */
 
 .drop_down {
@@ -214,7 +150,7 @@ header {
     transition: .3s;
 }
 
-.item:hover>.drop_down {
+.items:hover>.drop_down {
     opacity: 1;
     z-index: 10;
     pointer-events: all;
@@ -385,4 +321,106 @@ header {
 #footer>div>p:hover {
     color: #2c4bff;
     cursor: pointer;
+}
+
+/*  responsiveness */
+@media (min-width:320px) and (max-width:1024px) {
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        /* align-items: flex-start; */
+        width: 100%;
+        min-height: 100vh;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translateX(100%);
+        overflow-x: hidden;
+        transition: .5s linear;
+    }
+
+    .fa-solid.fa-xmark {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: .1s;
+    }
+
+    .active>.nav-items {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        pointer-events: all;
+        transition: .5s linear;
+    }
+
+    .active+#start>#menu>.hide {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: .2s;
+    }
+
+    .active+#start>#menu>.show {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+        transition: .1s;
+    }
+
+    #menu {
+        display: flex;
+        cursor: pointer;
+        z-index: 99;
+    }
+
+    #start {
+        width: max-content;
+    }
+
+    #start>div {
+        margin: 20px;
+    }
+
+    #navbar {
+        justify-content: space-between;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer>div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    #blue-section {
+        height: 600px;
+    }
+
+    #back-1,
+    #back-2 {
+        display: none;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    #blue-section {
+        height: 800px;
+        text-align: center;
+        padding: 0 10px;
+        align-items: center;
+        font-size: 22px;
+    }
 }
