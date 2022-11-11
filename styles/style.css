@@ -155,6 +155,10 @@
     border-radius: 5px;
 }
 
+#carousel {
+    margin-bottom: 100px;
+}
+
 .name {
     margin-top: 20px;
 }
