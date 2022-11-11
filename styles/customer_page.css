@@ -35,6 +35,7 @@ body {
 
 #allcards {
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .cards {

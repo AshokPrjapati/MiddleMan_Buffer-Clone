@@ -123,12 +123,12 @@ export default () => {
       </li>
       <li class="items"><a href="./pricing.html">Pricing</a></li>
       <li class="items"><a href="">Blog</a></li>
-      <li class="items"><a href="">About</a></li>
+      <li class="items"><a href="./about.html">About</a></li>
       <li class="items"><a href="./customer_page.html">Customer</a></li>
     </ul>
   </div>
   <div id="start">
-    <div id="login"><a href="">Log in</a></div>
+    <div id="login"><a href="./signin.html">Log in</a></div>
     <button class="btn">Get Started Now</button>
     <div id = "menu">
       <i class="fa-solid fa-bars hide"></i>
