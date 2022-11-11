@@ -12,7 +12,7 @@ let blueSection = () => {
 
 let footer = () => {
   return ` <div id="buffer">
-  <h1>Buffer</h1>
+  <h1>MiddleMan</h1>
   <div id="links">
     <div id="s-links">
       <i class="fa-brands fa-facebook-f"></i>
