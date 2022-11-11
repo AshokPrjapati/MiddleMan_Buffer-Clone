@@ -4,151 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="https://kit.fontawesome.com/63b2421d68.js" crossorigin="anonymous"></script>
-    <style>
-        body{
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        #desp-cont{
-            border:0px solid green;
-            width: 40%;
-            left: 30%;
-            position: relative;
-            font-weight:500;
-            font-size: large;
-        }
-        #desp{
-            border:0px solid red;
-             
-           text-align: center;
-           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        
-        #desp>h1{
-            font-weight: 2000;
-            line-height: 30px;
-          
-        }
-       #subs{
-        border:0px solid yellowgreen;
-        height:150px;
-        
-       }
-       #subs-btn{
-        
-        text-align: center;
-        border:0px solid violet;
-        margin-top: 50px;
-       }
-       #subs-btn>button{
-        height:50px;
-        color: white;
-        background-color:#2c4bff;
-        border: 0.5px solid black;
-        border-radius: 5px;
-       }
-       #subs-btn>button:focus{
-        background:black;
-}
-       #subs-social-handle{
-        border:0px solid orange;
-        text-align: center;
-        padding-top: 30px;
-        font-size: x-large;
-       }
-       #container{
-        height:600px;
-        border:0px solid blue;
-        display: flex;
-         /* background-image: url(https://images.pexels.com/photos/2340254/pexels-photo-2340254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */ 
-        background-image: url(https://buffer.com/static/background/yellow-bg-withpattern.jpg);
-        
-       }
-       .box{
-        height:90%;
-        width: 20%;
-        margin: auto;
-        border: 1px solid black;
-        background-color: white;
-        border-radius: 5px;
-
-       }
-       .box>p{
-        text-align: left;
-       }
-       .box>button{
-        margin-left: 24%;
-        background-color: #2c4bff;
-        color: aliceblue;
-        height: 30px;
-        width:50%;
-        border: 0px;
-        border-radius: 8px;
-       }
-       .box>button:hover{
-        background-color: #e97284;
-       }
-       span{
-        font-size:medium;
-       }
-       .price>h1{
-        color:blue;
-        font-weight: 2000;
-       }
-       .price>p>span{
-        font-weight: bolder;
-       }
-       #blue-poster{
-        background-color: #2c4bff;
-        height:500px;
-        color: aliceblue;
-        margin-top: 0%;
-        text-align: center;
-        position: relative;
-       }
-       #blue-dsp{
-        border: 0px solid black;
-        font-size: x-large;
-        font-weight: bolder;
-        width: 30%;
-        margin-left: 35%;
-        position: absolute;
-          bottom: 60%;
-
-        
-       }
-       #blue-poster>button{
-        position: absolute;
-          bottom: 38%;
-          left: 42%;
-         height: 40px;
-         border: 0px;
-         border-radius: 5px;
-         background-color: #e97284;
-         color: azure;
-         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-         font-weight: bold;
-         font-size:medium;
-         width:15%
-       }
-       #blue-poster>button:hover{
-        background-color:orange;
-       }
-       #blue-feature{
-        border:0px solid black;
-        width:30%;
-        font-weight: 1500;
-        display: flex;
-        margin-left: 35%;
-        justify-content: space-around;
-        position: absolute;
-          bottom: 28%;
-       }
-    </style>
+    <link rel="stylesheet" href="./styles/navbar_pricing.css" />
+    <link rel="stylesheet" href="./styles/pricing.css"/>
+    
+   
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <!-- Navbar start -->
+        <nav id="navbar"></nav>
+        <!-- Navbar end -->
+      </header>
     <div id="desp">
         <h1>Publish Flawlessly</h1>
         <h1>Analyze Effortlessly. Engage Authentically.</h1>
@@ -159,8 +28,8 @@
 
     <div id="subs">
         <div id="subs-btn">
-            <button onclick="month()">Monthly</button>
-            <button onclick="year()">Yearly</button>
+            <button id="month">Monthly</button>
+            <button id="year">Yearly</button>
         </div>
         
         <div id="subs-social-handle">
@@ -183,10 +52,10 @@
         <h1>Trial</h1>
         <p>For individuals and businesses getting started with social media.</p>
         <div class="price" id="id_1">
-            <h1>$0.5<span> /per month</span> </h1>
+            <h1 id="cost1">$0.5<span> /per month</span> </h1>
             <p>billed monthly</p>
         </div>
-        <button>Get Started</button>
+        <button id="pay1">Get Started</button>
         <div>
             <h3><i class="fa-solid fa-circle-check"></i> Basic publishing tools</h3>
             <h3><i class="fa-solid fa-circle-check"></i> Basic Landing page builder</h3>
@@ -197,10 +66,10 @@
         <h1>Essentials</h1>
         <p>For professionals who use publishing, analytics & engagement tools.</p>
         <div class="price" id="id_2">
-            <h1>$6<span> /per month</span> </h1>
+            <h1 id="cost2">$6<span> /per month</span> </h1>
             <p>billed monthly</p>
         </div>
-        <button>Get Started</button>
+        <button id="pay2">Get Started</button>
         <div>
             <h3><i class="fa-solid fa-circle-check"></i> Planning & publishing tools</h3>
             <h3><i class="fa-solid fa-circle-check"></i> Analytics tools</h3>
@@ -214,11 +83,11 @@
         <h1>Team</h1>
         <p>For teams who want unlimited user seating, collaboration, and reporting.</p>
         <div class="price" id="id_3">
-            <h1>$12<span> /per month</span> </h1>
+            <h1 id="cost3">$12<span> /per month</span> </h1>
             <p>billed monthly</p>
 
         </div>
-        <button>Get Started</button>
+        <button id="pay3">Get Started</button>
         <div>
             <h3><i class="fa-solid fa-circle-check"></i> Essentials features, plus:</h3>
             <h3><i class="fa-solid fa-circle-check"></i> Unlimited team members & clients</h3>
@@ -233,11 +102,11 @@
        
         <p>For teams who want unlimited user seating, collaboration, and reporting.</p>
         <div class="price" id="id_4">
-            <h1>$120<span> /per month</span> </h1>
+            <h1 id="cost4">$120<span> /per month</span> </h1>
             <p>billed monthly</p>
 
         </div>
-        <button> Get Started</button>
+        <button id="pay4"> Get Started</button>
         <h3><i class="fa-solid fa-circle-check"></i> Team features, plus:</h3>
         <h3><i class="fa-solid fa-circle-check"></i> Custom access & permissions</h3>
         <h3><i class="fa-solid fa-circle-check"></i> Agency-friendly pricing</h3>
@@ -247,6 +116,7 @@
     </div>
 
     <div id="blue-poster">
+        <div id="back-1"></div>
      <div id="blue-dsp">
         <p>140,000+ people like you use Buffer to build their brand on social media every month</p>
      </div>
@@ -256,7 +126,9 @@
         <div><i class="fa-solid fa-check"></i>14 day free trial</div>
         <div><i class="fa-solid fa-check"></i>Cancel anytime</div>
      </div>
+     <div id="back-2"></div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
-<script src="./scripts/pricing.js"></script>
+<script type="module" src="./scripts/pricing.js"></script>
