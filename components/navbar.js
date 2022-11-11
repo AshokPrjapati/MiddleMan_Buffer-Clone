@@ -121,14 +121,14 @@ export default () => {
           </div>
         </div>
       </li>
-      <li class="items"><a href="">Pricing</a></li>
-      <li class="items"><a href="">Blog</a></li>
-      <li class="items"><a href="">About</a></li>
-      <li class="items"><a href="">Customer</a></li>
+      <li class="item"><a href="./pricing.html">Pricing</a></li>
+      <li class="item"><a href="">Blog</a></li>
+      <li class="item"><a href="">About</a></li>
+      <li class="item"><a href="./customer_page.html">Customer</a></li>
     </ul>
   </div>
   <div id="start">
-    <div id="login"><a href="">Log In</a></div>
+    <div id="login"><a href="">Log in</a></div>
     <button class="btn">Get Started Now</button>
     <div id = "menu">
       <i class="fa-solid fa-bars hide"></i>

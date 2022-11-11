@@ -11,30 +11,28 @@ let blueSection = () => {
 }
 
 let footer = () => {
-  return ` 
-  <div id="buffer">
-   <h1>MiddleMan</h1>
-    <div id="links">
-      <div id="s-links">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-tiktok"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-pinterest-p"></i>
-      </div>
-      <div id="download">
-        <p>Download</p>
-        <button class="d-btn">
-          <i class="fa-brands fa-apple"></i> App Store
-        </button>
-        <button class="d-btn">
-          <i class="fa-brands fa-google-play"></i> Play Store
-        </button>
-      </div>
-      <div id="copyright">
-        Copyright ©2022 Buffer | Privacy | Terms | Security
-      </div>
+  return ` <div id="buffer">
+  <h1>MiddleMan</h1>
+  <div id="links">
+    <div id="s-links">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-tiktok"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+    <div id="download">
+      <p>Download</p>
+      <button class="d-btn">
+        <i class="fa-brands fa-apple"></i> App Store
+      </button>
+      <button class="d-btn">
+        <i class="fa-brands fa-google-play"></i> Play Store
+      </button>
+    </div>
+    <div id="copyright">
+      Copyright ©2022 Buffer | Privacy | Terms | Security
     </div>
   </div>
   <div id="tools" class="lh">
