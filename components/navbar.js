@@ -1,11 +1,11 @@
 export default () => {
-    return `<div id="logo">
+  return `<div id="logo">
    <a href="index.html"> <img src="./images/logo.png" alt="" /></a>
   </div>
 
-  <div id="navlist">
-    <ul>
-      <li class="item">
+  <div id="navlist" class="">
+    <ul class="nav-items">
+      <li class="items">
         <a href=""
           >Tools
           <i class="fa-solid fa-angle-down"></i>
@@ -52,7 +52,7 @@ export default () => {
           </div>
         </div>
       </li>
-      <li class="item">
+      <li class="items">
         <a href="">Channel <i class="fa-solid fa-angle-down"></i> </a>
         <div class="drop_down">
           <div class="card">
@@ -121,14 +121,19 @@ export default () => {
           </div>
         </div>
       </li>
-      <li class="item"><a href="">Pricing</a></li>
-      <li class="item"><a href="">Blog</a></li>
-      <li class="item"><a href="">About</a></li>
-      <li class="item"><a href="./customer_page.html">Customer</a></li>
+      <li class="items"><a href="./pricing.html">Pricing</a></li>
+      <li class="items"><a href="">Blog</a></li>
+      <li class="items"><a href="">About</a></li>
+      <li class="items"><a href="./customer_page.html">Customer</a></li>
     </ul>
   </div>
   <div id="start">
-    <div id="login"><a href="">Log In</a></div>
+    <div id="login"><a href="">Log in</a></div>
     <button class="btn">Get Started Now</button>
+    <div id = "menu">
+      <i class="fa-solid fa-bars hide"></i>
+      <i class="fa-solid fa-xmark show"></i>
+     </div >
   </div>`
+
 }

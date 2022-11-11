@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
 .width90 {
     width: 90%;
+    margin: auto;
+}
+
+.width80 {
+    width: 80%;
     margin: auto;
 }
 
 #hero {
     display: flex;
     padding: 30px;
+    gap: 0 35px;
+    padding-bottom: 100px;
 }
 
 .left,
@@ -18,9 +27,22 @@
     gap: 35px;
 }
 
+.center {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 80px;
+}
+
 .left>h1 {
+    font-family: Poppins;
+    font-weight: bold;
     font-size: 40px;
     font-weight: bolder;
+}
+
+.left>p,
+.center>p {
+    line-height: 30px;
 }
 
 
@@ -48,4 +70,135 @@
 .btn-1>i {
     color: #2c4bff;
     margin-right: 5px;
+}
+
+#line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#line>div {
+    width: 15%;
+}
+
+#mid1 {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+#mid1>h1 {
+    font-family: Poppins;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#mid1>p {
+    padding: 0 26%;
+}
+
+#arrow {
+    padding-bottom: 100px;
+}
+
+#arrow>img {
+    width: 100%;
+}
+
+.left>h3,
+.center>h3 {
+    color: #2c4bff;
+}
+
+.left>.heading,
+.center>.heading {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+#partner {
+    text-align: center;
+}
+
+#c-logo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#c-logo>div {
+    display: flex;
+    align-items: center;
+    width: 8%;
+    margin: 30px 0 80px 0;
+}
+
+#c-logo>div>img {
+    width: 100%;
+}
+
+#partner>h3 {
+    font-family: Poppins;
+}
+
+.owl-carousel {
+    text-align: center;
+    line-height: 2;
+}
+
+.item {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#carousel {
+    margin-bottom: 100px;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+
+/* Responsive */
+
+@media (min-width:320px) and (max-width:1024px) {
+    #hero {
+        align-items: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    #hero.s2 {
+        flex-direction: column-reverse;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        text-align: center;
+        gap: 0;
+        line-height: 1.5;
+    }
+
+    .buttons {
+        margin: 10px 0;
+    }
+
+    .buttons>button {
+        margin: 10px 0;
+    }
 }
