@@ -402,6 +402,17 @@ header {
     #back-2 {
         display: none;
     }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer>div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 }
 
 @media (min-width:320px) and (max-width:425px) {
@@ -412,15 +423,6 @@ header {
         align-items: center;
         font-size: 22px;
     }
-    
-     #footer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
 
-    #footer>div {
-        width: 100%;
-        margin-bottom: 50px;
-    }
+
 }
