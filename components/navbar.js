@@ -121,10 +121,10 @@ export default () => {
           </div>
         </div>
       </li>
-      <li class="item"><a href="./pricing.html">Pricing</a></li>
-      <li class="item"><a href="">Blog</a></li>
-      <li class="item"><a href="">About</a></li>
-      <li class="item"><a href="./customer_page.html">Customer</a></li>
+      <li class="items"><a href="./pricing.html">Pricing</a></li>
+      <li class="items"><a href="">Blog</a></li>
+      <li class="items"><a href="">About</a></li>
+      <li class="items"><a href="./customer_page.html">Customer</a></li>
     </ul>
   </div>
   <div id="start">
