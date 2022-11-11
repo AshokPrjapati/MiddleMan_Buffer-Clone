@@ -152,6 +152,10 @@
         flex-direction: column;
     }
 
+    #hero.s2 {
+        flex-direction: column-reverse;
+    }
+
     .left,
     .right {
         width: 100%;
