@@ -1,46 +1,54 @@
-#top{
-    width: 100%;
-    padding: 25px;
-    background-color: #eeeeee;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+#top {
+  width: 100%;
+  padding: 25px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-#top>img{
+
+#top>img {
   height: 100%;
 }
-#top>h1{
-   font-size:30px ;
-   font-weight:900 ;
+
+#top>h1 {
+  font-size: 30px;
+  font-weight: 900;
 
 }
-#admin_detials{
+
+#admin_detials {
   margin: auto;
   margin-top: 100px;
   width: 30%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
- display: flex;
- flex-direction: column;
- padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
 }
-#admin_detials>label,input,button{
-    margin-top: 30px;
-    height: 30px;
-    font-size: 30px;
-    width: 100%;
-    
-}
-label{
-font-weight:700;
 
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#admin_detials>label,
+input,
+button {
+  margin-top: 30px;
+  height: 30px;
+  font-size: 30px;
+  width: 100%;
+
 }
-#login_btn{
-    margin-top:50px;
-    width: 300px;
-    height: 50px;
-    border-radius: 10px;
-    border: 0;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-   
+
+label {
+  font-weight: 700;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#login_btn {
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
 }

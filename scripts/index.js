@@ -19,5 +19,5 @@ let user = document.querySelector(".user");
 user.onclick = () => window.location.href = "./signin.html";
 
 let admin = document.querySelector(".admin");
-admin.onclick = () => window.location.href = "./admin.html";
+admin.onclick = () => window.location.href = "./admin page/index.html";
 
