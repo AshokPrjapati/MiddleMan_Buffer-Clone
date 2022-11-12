@@ -10,7 +10,7 @@
 header {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,10 +119,6 @@ header {
     color: #2c4bff;
 }
 
-#login>a:hover {
-    border-bottom: .5px solid #2c4bff;
-}
-
 #menu {
     display: flex;
     align-items: center;
@@ -150,10 +146,15 @@ header {
     transition: .3s;
 }
 
-.items:hover>.drop_down {
+.items:hover .drop_down {
     opacity: 1;
+    visibility: visible;
     z-index: 10;
     pointer-events: all;
+}
+
+#login:hover .drop_down {
+    width: 250px;
 }
 
 .card {
