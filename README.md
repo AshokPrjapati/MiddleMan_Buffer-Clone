@@ -5,4 +5,4 @@
   2. Aayush Kindo ---> Pricing & checkout page
   3. Utkarsh Parmar ---> login/signup page
   4. Rushikesh Moon ---> Admin Page
-- IA - Ketan Rajabhau Makode
+- IA - Ketan Rajabhau Makode - 9850349620
