@@ -15,7 +15,7 @@
                 <img id="middleLogo" src="./images/logo.png" alt="">
             
             <div id="form_div">
-                <form action="">
+                <form id="user_sign_up_form">
                     <h1 class="sign-up tag-clr">Let's get your account set up</h1>
                     <div>
                         <label class="input-lb for="email">Email</label>
@@ -49,7 +49,7 @@
                             <p>For individuals getting started with social media</p>
                         </div>
                         <div class="btn-div">
-                            <button class="signup_btn">Sign Up</button>  
+                            <button id="sign-up_btn" class="signup_btn" onclick="getFormData()">Sign Up</button>  
                         </div>
                     </div>
                 </div>
@@ -77,5 +77,6 @@
             </div>
         </div>
     </div>
+    <script src="./scripts/signin.js"></script>
 </body>
 </html>
